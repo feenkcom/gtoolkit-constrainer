@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "GeorgeGanea 1/12/2018 15:34",
 	"super" : "Object",
-	"category" : "GT-Constrainer",
+	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
