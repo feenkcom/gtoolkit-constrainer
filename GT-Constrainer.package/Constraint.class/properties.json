@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "GeorgeGanea 1/12/2018 15:34",
+	"super" : "Object",
+	"category" : "GT-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subject",
+		"relationBlock",
+		"conditionBlock",
+		"relatedItems",
+		"violations"
+	],
+	"name" : "Constraint",
+	"type" : "normal"
+}
