@@ -10,7 +10,8 @@
 		"relationBlock",
 		"conditionBlock",
 		"relatedItems",
-		"violations"
+		"violations",
+		"ruleBreakers"
 	],
 	"name" : "Constraint",
 	"type" : "normal"

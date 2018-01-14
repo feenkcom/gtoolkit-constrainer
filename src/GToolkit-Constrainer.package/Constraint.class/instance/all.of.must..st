@@ -5,4 +5,5 @@ all: selector of: aGroup must: aBlock
 	relationBlock := [ :each | each perform: selector asSymbol ].
 	conditionBlock := aBlock.
 	executionResult := self execute.
+	ruleBreakers := aGroup \ ruleBreakers.
 	violations := relatedItems \ executionResult
