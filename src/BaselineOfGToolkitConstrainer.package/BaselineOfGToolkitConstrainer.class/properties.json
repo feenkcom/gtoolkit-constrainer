@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "GeorgeGanea 1/14/2018 10:12",
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"category" : "BaselineOfGToolkitConstrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
