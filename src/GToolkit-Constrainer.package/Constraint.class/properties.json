@@ -11,7 +11,8 @@
 		"conditionBlock",
 		"relatedItems",
 		"violations",
-		"ruleBreakers"
+		"ruleBreakers",
+		"leftSubject"
 	],
 	"name" : "Constraint",
 	"type" : "normal"

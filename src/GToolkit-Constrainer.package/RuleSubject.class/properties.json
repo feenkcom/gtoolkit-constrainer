@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "GeorgeGanea 1/18/2018 14:30",
+	"super" : "Object",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subjectCollection",
+		"collection"
+	],
+	"name" : "RuleSubject",
+	"type" : "normal"
+}

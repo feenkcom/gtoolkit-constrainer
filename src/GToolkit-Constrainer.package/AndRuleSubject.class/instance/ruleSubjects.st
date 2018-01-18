@@ -1,0 +1,4 @@
+public
+ruleSubjects
+	^ andSubject
+	
