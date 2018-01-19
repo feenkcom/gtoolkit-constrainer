@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "GeorgeGanea 1/19/2018 13:47",
+	"super" : "Object",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"associations"
+	],
+	"name" : "Subject",
+	"type" : "normal"
+}

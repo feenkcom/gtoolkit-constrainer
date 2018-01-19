@@ -1,4 +1,4 @@
 public
 and: aSubject with: anotherSubject
-	andSubject := aSubject ruleSubject & anotherSubject ruleSubject.
+	associations := aSubject ruleAssociations asDictionary intersectionByValue: anotherSubject ruleAssociations asDictionary.
 	

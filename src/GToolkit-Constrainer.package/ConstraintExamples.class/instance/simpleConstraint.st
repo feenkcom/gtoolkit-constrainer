@@ -2,6 +2,6 @@ public
 simpleConstraint
 	<gtExample>
 	^ Constraint new 
-	no: #value 
-	of: { #a -> #b . #a -> #c . #b -> #c} 
-	should: [ :assoc :value | value = #a]
+	the: #value 
+	of: { #a -> #b . #a -> #cc . #b -> #cc};
+	must: [ :assoc :value | value = #cc]

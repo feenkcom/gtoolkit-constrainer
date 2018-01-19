@@ -6,13 +6,13 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"subject",
-		"relationBlock",
+		"leftSubject",
 		"conditionBlock",
-		"relatedItems",
-		"violations",
+		"ruleMatches",
+		"ruleMatchers",
+		"ruleBreakings",
 		"ruleBreakers",
-		"leftSubject"
+		"allPossibleMatches"
 	],
 	"name" : "Constraint",
 	"type" : "normal"

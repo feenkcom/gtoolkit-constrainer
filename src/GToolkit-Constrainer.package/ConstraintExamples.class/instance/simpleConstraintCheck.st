@@ -3,5 +3,5 @@ simpleConstraintCheck
 	<gtExample>
 	| constraint |
 	constraint := self simpleConstraint.
-	self assert: constraint ruleBreakerElements isEmpty.
+	self assert: constraint ruleBreakerElements size equals: 1.
 	^ constraint

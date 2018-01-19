@@ -3,5 +3,5 @@ aRuleSubjectCheck
 	<gtExample>
 	| subject |
 	subject := self aRuleSubject.
-	self assert: subject ruleSubject first equals: #b.
+	self assert: subject ruleAssociations first equals: ((#a -> #b) -> #b).
 	^ subject

@@ -1,4 +1,4 @@
-basic
+api
 the: selector of: aCollection
-	self.leftSubject := RuleSubject new the: selector of: aCollection.
+	leftSubject := RuleSubject new the: selector of: aCollection.
 	^self.
