@@ -9,4 +9,5 @@ Load the code via:
 Metacello new
    baseline: 'GToolkitConstrainer';
    repository: 'github://feenkcom/gtoolkit-constrainer';
-    load.```
+   load.
+```
