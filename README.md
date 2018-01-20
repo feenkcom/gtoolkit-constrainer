@@ -8,6 +8,6 @@ Load the code via:
 ```Iceberg enableMetacelloIntegration: true.
 Metacello new
    baseline: 'GToolkitConstrainer';
-   repository: 'github://feenkcom/gtoolkit-constrainer';
+   repository: 'github://feenkcom/gtoolkit-constrainer/src';
    load.
 ```
