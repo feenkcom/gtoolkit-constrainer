@@ -18,7 +18,12 @@ check
 			currentRuleMatches := currentRelatedItems
 				select: [ :relatedItem | conditionBlock value: each value: relatedItem ].
 				
-			currentRuleMatches size > 0 ifTrue: [ ruleMatchers add: each ].
+			currentRuleMatches size > 0 ifTrue: [ 
+				ruleMatchers add: each.
 				
-			ruleMatches addAll: currentRuleMatches ].
+				].
+				
+			ruleMatches addAll: currentRuleMatches 
+			
+			].
 	^ ruleMatches
