@@ -1,5 +1,5 @@
 public
-andSubjectExample
+andSubjectCheck
 	<gtExample>
 	| andSubject |
 	andSubject := self andSubject.

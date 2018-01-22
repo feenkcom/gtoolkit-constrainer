@@ -2,6 +2,6 @@ public
 secondRuleSubject
 	<gtExample>
 	^ SimpleSubject new 
-	the: #key 
-	of: { #a -> #b . #a -> #c . #b -> #b} 
+	the: #value 
+	of: { #a -> #x . #a -> #cc . #b -> #z}
 	

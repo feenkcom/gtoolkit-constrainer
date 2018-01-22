@@ -1,9 +1,8 @@
 public
 andSubjectConstraint
 	<gtExample>
+	| andSubject |
+	andSubject := self andSubject.
 	^ Constraint new 
-	the: #value 
-	of: { #a -> #b . #a -> #cc . #b -> #cc};
-	andThe: #value
-	of: { #a -> #x . #a -> #cc . #b -> #z};
+	theSubject: andSubject;
 	must: [ :assoc :value | value = #cc]
