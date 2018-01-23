@@ -1,7 +1,10 @@
 public
 simpleConstraint
 	<gtExample>
-	^ Constraint new 
-	the: #value 
-	of: { #a -> #b . #a -> #cc . #b -> #cc};
-	must: [ :assoc :value | value = #cc]
+	|theConstraint|
+	theConstraint := Constraint new 
+	theSubject: self aConstraintSubject;
+	must: [ :assoc :value | value = #cc].
+	self assert: theConstraint check constraintMatchers first equals: ((#a -> #cc) -> #cc).
+	^ theConstraint 
+	

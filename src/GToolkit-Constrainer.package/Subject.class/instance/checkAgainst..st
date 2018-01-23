@@ -1,0 +1,3 @@
+visiting
+checkAgainst: aConstraint
+	self subclassResponsibility

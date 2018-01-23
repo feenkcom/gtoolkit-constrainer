@@ -1,1 +1,1 @@
-Base class for the subject of a rule
+sBase class for the subject of a rule
