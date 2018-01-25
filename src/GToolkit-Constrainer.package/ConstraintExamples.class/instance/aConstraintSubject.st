@@ -3,5 +3,5 @@ aConstraintSubject
 	<gtExample>
 	^ SimpleSubject new 
 	the: #value 
-	of: { #a -> #b . #a -> #cc . #b -> #cc} 
+	of: { #a -> #x . #a -> #cc . #b -> #cc} 
 	

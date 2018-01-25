@@ -1,4 +1,3 @@
 basic
 the: aBlock of: aCollection
-	"comment stating purpose of message"
-	associations := aCollection collect: [:each | each -> (aBlock value: each)].
+	associations := aCollection collect: [:each | BiElement from:each to:(aBlock value: each)].

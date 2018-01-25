@@ -4,10 +4,10 @@ checkAgainst: aConstraint
 	aResult := ConstraintResult new.
 	associations
 		do: [ :each | 
-			currentRelatedItems := each value.
+			currentRelatedItems := each to.
 			(currentRelatedItems isCollection and: currentRelatedItems isString not)
 				ifFalse: [ currentRelatedItems := OrderedCollection new.
-					currentRelatedItems add: each value ].
+					currentRelatedItems add: each to ].
 			currentRuleMatches := currentRelatedItems
 				select: [ :relatedItem | aConstraint evaluateConditionFrom: each to: relatedItem ].
 			(currentRuleMatches size > 0)

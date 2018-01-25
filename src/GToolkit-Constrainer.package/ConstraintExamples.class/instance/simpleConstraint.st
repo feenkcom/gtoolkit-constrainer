@@ -5,6 +5,6 @@ simpleConstraint
 	theConstraint := Constraint new 
 	theSubject: self aConstraintSubject;
 	must: [ :assoc :value | value = #cc].
-	self assert: theConstraint check constraintMatchers first equals: ((#a -> #cc) -> #cc).
+	self assert: theConstraint check constraintMatchers first from equals: ((#a -> #cc)).
 	^ theConstraint 
 	
