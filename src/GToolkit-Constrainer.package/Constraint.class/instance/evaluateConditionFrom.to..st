@@ -1,3 +1,3 @@
-as yet unclassified
+api
 evaluateConditionFrom: anAssociation to: aString 
 	^ conditionBlock value: anAssociation value: aString 

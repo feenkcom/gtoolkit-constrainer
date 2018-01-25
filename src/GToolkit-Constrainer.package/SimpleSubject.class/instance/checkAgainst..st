@@ -12,5 +12,6 @@ checkAgainst: aConstraint
 				select: [ :relatedItem | aConstraint evaluateConditionFrom: each to: relatedItem ].
 			(currentRuleMatches size > 0)
 				ifTrue: [ aResult addConstraintMatcher: each ];
-				ifFalse: [ aResult addConstraintBreaker: each ] ].
+				ifFalse: [ aResult addConstraintBreaker: each ]
+				].
 	^ aResult
