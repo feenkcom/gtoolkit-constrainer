@@ -1,3 +1,3 @@
 accessors
 subject
-	subject
+	^ subject

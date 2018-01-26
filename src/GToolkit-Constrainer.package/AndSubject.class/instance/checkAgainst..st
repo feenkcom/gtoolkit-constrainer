@@ -5,8 +5,7 @@ checkAgainst: aConstraint
 	children
 		do: [ :aSubject | 
 			| temporaryResult |
-			temporaryResult := aSubject checkAgainst: aConstraint.
-			
+			temporaryResult := aSubject checkAgainst: aConstraint.	
 			resultList add: temporaryResult ].
 	result := self andResultList: resultList.
 	resultList do: [ :each | result addChildResult: each ].
