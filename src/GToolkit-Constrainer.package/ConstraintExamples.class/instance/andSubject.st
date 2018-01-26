@@ -6,5 +6,4 @@ andSubject
 	subjectTwo := self secondRuleSubject.
 	andSubject := AndSubject new.
 	andSubject and: subjectOne  with: subjectTwo.
-	"self assert: andSubject ruleAssociations size equals: 1."
    ^ andSubject 

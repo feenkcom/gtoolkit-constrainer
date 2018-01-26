@@ -14,4 +14,6 @@ checkAgainst: aConstraint
 				ifTrue: [ aResult addConstraintMatcher: each ];
 				ifFalse: [ aResult addConstraintBreaker: each ]
 				].
+	aResult constraint: aConstraint.
+	aResult subject: self.
 	^ aResult

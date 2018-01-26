@@ -1,4 +1,4 @@
 accessing
-ruleAssociations
+associations
 	"comment stating purpose of message"
 	^ associations.

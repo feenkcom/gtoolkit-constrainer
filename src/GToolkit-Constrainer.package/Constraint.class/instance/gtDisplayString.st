@@ -1,0 +1,4 @@
+debug
+gtDisplayString
+	^ conditionBlock raw
+
