@@ -3,5 +3,5 @@ secondRuleSubject
 	<gtExample>
 	^ SimpleSubject new 
 	the: #value 
-	of: { #a -> #x . #a -> #cc . #b -> #z}
+	of: { #two -> #b . #two -> #c . #two -> #d . #two -> #e} 
 	
