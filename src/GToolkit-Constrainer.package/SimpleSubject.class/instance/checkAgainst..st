@@ -9,7 +9,7 @@ checkAgainst: aConstraint
 				ifFalse: [ currentRelatedItems := OrderedCollection new.
 					currentRelatedItems add: each to ].
 			currentRuleMatches := currentRelatedItems
-				select: [ :relatedItem | aConstraint evaluateConditionFrom: each to: relatedItem ].
+				select: [ :relatedItem | aConstraint evaluateConstraintOn: each ].
 			(currentRuleMatches size > 0)
 				ifTrue: [ aResult addConstraintMatcher: each ];
 				ifFalse: [ aResult addConstraintBreaker: each ]

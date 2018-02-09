@@ -1,1 +1,0 @@
-Represents an And Subject, it composes two RuleSubjects by intersecting their collections

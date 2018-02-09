@@ -1,4 +1,4 @@
-public
+api
 andResultList: aResultList
 	^ aResultList
 		fold: [ :aResult :bResult | 
@@ -8,6 +8,6 @@ andResultList: aResultList
 				intersectionByValue: bResult constraintMatchers)
 				do: [ :each | foldResult addConstraintMatcher: each ].
 			(aResult constraintBreakers
-				intersectionByValue: bResult constraintBreakers)
+				union: bResult constraintBreakers)
 				do: [ :each | foldResult addConstraintBreaker: each ].
 			foldResult ]

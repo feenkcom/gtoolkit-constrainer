@@ -1,3 +1,3 @@
 api
 check
-	^ subject checkAgainst: constraint. 
+	^ constraint applyTo: subject 
