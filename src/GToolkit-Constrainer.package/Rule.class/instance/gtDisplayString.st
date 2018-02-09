@@ -1,0 +1,3 @@
+debug
+gtDisplayString
+	^ constraint gtDisplayString 

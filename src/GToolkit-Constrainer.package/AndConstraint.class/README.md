@@ -1,0 +1,1 @@
+An AndConstraint contains multiple constraints. When applied to a subject, its elements have to pass all conditions.

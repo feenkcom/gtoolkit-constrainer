@@ -1,17 +1,14 @@
 {
-	"commentStamp" : "GeorgeGanea 1/22/2018 15:58",
+	"commentStamp" : "GeorgeGanea 2/9/2018 11:03",
 	"super" : "Object",
 	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"constraintMatchers",
-		"constraintBreakers",
-		"children",
 		"subject",
 		"constraint"
 	],
-	"name" : "ConstraintResult",
+	"name" : "Rule",
 	"type" : "normal"
 }

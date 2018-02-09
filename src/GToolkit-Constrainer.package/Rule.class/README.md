@@ -1,0 +1,1 @@
+Represents a rule that contains a subject and a constraint.

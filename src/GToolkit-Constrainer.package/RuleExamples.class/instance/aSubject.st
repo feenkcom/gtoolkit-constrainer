@@ -1,5 +1,5 @@
 public
-aConstraintSubject
+aSubject
 	<gtExample>
 	^ SimpleSubject new 
 	the: #value 

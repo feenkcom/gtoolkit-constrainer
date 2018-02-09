@@ -2,7 +2,7 @@ public
 andSubject
 	<gtExample>
 	| subjectOne subjectTwo andSubject |
-	subjectOne := self aConstraintSubject.
+	subjectOne := self aSubject.
 	subjectTwo := self secondRuleSubject.
 	andSubject := AndSubject new.
 	andSubject and: subjectOne  with: subjectTwo.

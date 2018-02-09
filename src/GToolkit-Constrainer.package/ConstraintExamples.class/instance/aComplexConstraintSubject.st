@@ -2,7 +2,7 @@ public
 aComplexConstraintSubject
 	<gtExample>
 	| subjectOne subjectTwo andSubject subjectThree subjectFour andSubject2 andSubject3 |
-	subjectOne := self aConstraintSubject.
+	subjectOne := self aSubject.
 	subjectTwo := self secondRuleSubject.
 	andSubject := AndSubject new.
 	andSubject and: subjectOne  with: subjectTwo.
