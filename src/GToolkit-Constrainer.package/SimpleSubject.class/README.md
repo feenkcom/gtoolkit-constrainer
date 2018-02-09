@@ -1,1 +1,0 @@
-Represents a collection of objects that will be checked in a Constraint

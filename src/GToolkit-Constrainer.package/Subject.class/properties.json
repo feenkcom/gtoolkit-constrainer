@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"associations"
+		"associations",
+		"the",
+		"of"
 	],
 	"name" : "Subject",
 	"type" : "normal"

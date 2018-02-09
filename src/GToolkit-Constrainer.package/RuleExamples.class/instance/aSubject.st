@@ -1,7 +1,7 @@
 public
 aSubject
 	<gtExample>
-	^ SimpleSubject new 
+	^ Subject new 
 	the: #value 
 	of: { #one -> #a . #one -> #b . #one -> #c . #one -> #d} 
 	
