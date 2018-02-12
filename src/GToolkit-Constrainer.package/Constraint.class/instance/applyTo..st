@@ -1,3 +1,3 @@
 operations
 applyTo: aSubject
-	^ aSubject checkAgainst: self. 
+	^ aSubject checkElements: self. 

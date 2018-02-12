@@ -5,7 +5,7 @@ andResultList: aResultList
 			| foldResult |
 			foldResult := ConstraintResult new.
 			(aResult constraintMatchers
-				intersectionByValue: bResult constraintMatchers)
+				intersection:  bResult constraintMatchers)
 				do: [ :each | foldResult addConstraintMatcher: each ].
 			(aResult constraintBreakers
 				union: bResult constraintBreakers)

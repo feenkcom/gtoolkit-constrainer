@@ -2,5 +2,5 @@ public
 andSecondConstraint
 	<gtExample>
 	^ Constraint new 
-	conditionBlock: [:from :to | to > #a ]
+	conditionBlock: [ :to | to > #a ]
 	

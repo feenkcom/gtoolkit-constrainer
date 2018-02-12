@@ -1,3 +1,3 @@
 api
 check
-	^ constraint applyTo: subject 
+	^ constraint applyTo: subject. 

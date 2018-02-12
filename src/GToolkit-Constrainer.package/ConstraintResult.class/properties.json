@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "GeorgeGanea 1/22/2018 15:58",
-	"super" : "Object",
+	"super" : "Subject",
 	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],

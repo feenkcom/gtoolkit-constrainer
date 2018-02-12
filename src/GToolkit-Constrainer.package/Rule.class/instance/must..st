@@ -1,4 +1,4 @@
 api
 must: aBlock
-	conditionBlock := aBlock.
-	^ self
+	constraint := Constraint new.
+	constraint conditionBlock: aBlock
