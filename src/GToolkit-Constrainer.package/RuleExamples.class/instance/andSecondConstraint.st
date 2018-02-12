@@ -2,5 +2,5 @@ public
 andSecondConstraint
 	<gtExample>
 	^ Constraint new 
-	conditionBlock: [ :to | to > #a ]
+	conditionBlock: [ :el | el > #a ]
 	
