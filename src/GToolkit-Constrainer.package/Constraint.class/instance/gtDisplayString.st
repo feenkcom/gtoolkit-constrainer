@@ -1,4 +1,4 @@
-debug
+accessing
 gtDisplayString
-	^ conditionBlock gtDisplayString
+	^ predicate gtDisplayString
 

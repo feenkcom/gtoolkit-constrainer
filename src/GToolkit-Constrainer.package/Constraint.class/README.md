@@ -1,1 +1,1 @@
-Represents a constraint checker on an Object or an array of objects
+Represents a rule that contains a subject and a constraint.

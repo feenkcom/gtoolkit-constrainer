@@ -1,3 +1,3 @@
 accessors
 constraintBreakers
-	^constraintBreakers
+	^ constraintBreakers
