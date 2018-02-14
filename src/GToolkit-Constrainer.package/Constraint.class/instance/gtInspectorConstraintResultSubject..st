@@ -4,4 +4,4 @@ gtInspectorConstraintResultSubject: composite
 	composite table
 		title: 'Subject';
 		display: [ self subject elements];
-		column: 'Element' evaluated: [ :each | each ].
+		column: ('SubjectInput ', self subject block gtDisplayString) evaluated: [ :each | each ].
