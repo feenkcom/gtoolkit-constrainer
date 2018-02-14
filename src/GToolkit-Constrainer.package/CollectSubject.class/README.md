@@ -1,0 +1,1 @@
+Subject that computes  its elements via collect

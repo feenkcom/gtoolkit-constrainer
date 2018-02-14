@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "GeorgeGanea 2/14/2018 15:50",
+	"super" : "ConstraintSubject",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SelectSubject",
+	"type" : "normal"
+}
