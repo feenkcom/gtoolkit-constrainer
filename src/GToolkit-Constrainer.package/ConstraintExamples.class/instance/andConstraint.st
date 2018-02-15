@@ -1,7 +1,7 @@
 public
 andConstraint
 	<gtExample>
-	^ AndConstraint new 
-	addConstraint: self aConstraint;
+	^ AndPredicate new 
+	addConstraint: self aPredicate;
 	addConstraint: self andSecondConstraint 
 	

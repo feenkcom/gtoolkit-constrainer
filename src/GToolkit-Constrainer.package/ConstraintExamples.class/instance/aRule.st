@@ -3,6 +3,6 @@ aRule
 	<gtExample>
 	^ Constraint new 
 	subject: self aSubject;
-	constraint: self aConstraint;
+	predicate: self aPredicate;
 	check
 	

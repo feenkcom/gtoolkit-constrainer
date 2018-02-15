@@ -1,7 +1,7 @@
 public
 aSubject
 	<gtExample>
-	^ ConstraintSubject new 
+	^ CollectSubject new 
 	the: { #one -> #a . #one -> #b . #one -> #c . #one -> #d}  
-	collect: #value
+	block: #value
 	

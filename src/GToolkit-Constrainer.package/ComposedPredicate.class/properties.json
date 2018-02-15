@@ -8,6 +8,6 @@
 	"instvars" : [
 		"constraints"
 	],
-	"name" : "ComposedConstraint",
+	"name" : "ComposedPredicate",
 	"type" : "normal"
 }

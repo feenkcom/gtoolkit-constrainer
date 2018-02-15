@@ -8,8 +8,7 @@
 	"instvars" : [
 		"subject",
 		"predicate",
-		"children",
-		"result"
+		"children"
 	],
 	"name" : "Constraint",
 	"type" : "normal"
