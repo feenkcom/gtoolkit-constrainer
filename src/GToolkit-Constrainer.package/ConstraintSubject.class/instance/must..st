@@ -4,7 +4,7 @@ must: aBlock
 	cPredicate := ConstraintPredicate new.
 	cPredicate conditionBlock: aBlock.
 	constraint := Constraint new subject: self; predicate: cPredicate.
-	self parentConstraint isNotNil ifTrue: [ 
+	self parentConstraint isNotNil ifTrue: [
 		constraint addChildConstraint: parentConstraint
 	].
 	

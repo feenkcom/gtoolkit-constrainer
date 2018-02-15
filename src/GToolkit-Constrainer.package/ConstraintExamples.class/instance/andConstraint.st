@@ -3,5 +3,5 @@ andConstraint
 	<gtExample>
 	^ AndPredicate new 
 	addConstraint: self aPredicate;
-	addConstraint: self andSecondConstraint 
+	addConstraint: self andSecondPredicate
 	
