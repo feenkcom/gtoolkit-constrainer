@@ -3,9 +3,9 @@ gtInspectorConstraintSubject: composite
 	<gtInspectorPresentationOrder: 0>
 	composite table
 		title: [ 'RuleEvaluationResult' ];
-		display: [ {self constraint} ];
-		children: [ :each | each children ];
+		display: [ {self} ];
+		children: [ :each | (each constraint) children collect: [:kid | kid check]];
 		column: 'Subject' evaluated: [ :each | each subject gtDisplayString ];
-		column: 'Must' evaluated: [ :each | each predicate gtDisplayString ];
-		column: 'Breakers' evaluated: [ :each | each check constraintBreakers size gtDisplayString ];
-		column: 'Matchers' evaluated: [ :each | each check constraintMatchers size gtDisplayString ]
+		column: 'Must' evaluated: [ :each | each constraint predicate gtDisplayString ];
+		column: 'Breakers' evaluated: [ :each | each constraintBreakers size gtDisplayString ];
+		column: 'Matchers' evaluated: [ :each | each constraintMatchers size gtDisplayString ]
