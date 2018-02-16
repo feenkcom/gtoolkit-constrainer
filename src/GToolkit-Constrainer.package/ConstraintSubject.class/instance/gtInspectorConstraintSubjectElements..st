@@ -1,7 +1,7 @@
 basic
 gtInspectorConstraintSubjectElements: composite
-	<gtInspectorPresentationOrder: 1>
+	<gtInspectorPresentationOrder: 2>
 	composite table
 		title: [ 'Subject Elements' ];
-		display: [ {self elements } ];
+		display: [ self elements  ];
 		column: 'Element' evaluated: [ :each | each gtDisplayString ].

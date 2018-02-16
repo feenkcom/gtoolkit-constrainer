@@ -9,7 +9,9 @@
 		"the",
 		"elements",
 		"block",
-		"parentConstraint"
+		"parentConstraint",
+		"children",
+		"name"
 	],
 	"name" : "ConstraintSubject",
 	"type" : "normal"
