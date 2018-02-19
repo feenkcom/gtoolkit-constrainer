@@ -20,6 +20,6 @@ gtInspectorBlocCodeGraphIn: composite
 					editorElement ];
 				with: (self withDeepCollect: #parents) asSet.
 			view edges 
-				fromRightCenter; toLeftCenter;
+				fromCenterBottom; toCenterTop;
 				connectToAll: #parents.
-			view layout horizontalDominanceTree layered horizontalGap: 100 ]
+			view layout dominanceTree  ]
