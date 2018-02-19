@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "GeorgeGanea 2/18/2018 21:28",
+	"super" : "ConstraintSubject",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"otherCollection"
+	],
+	"name" : "MergedSubject",
+	"type" : "normal"
+}

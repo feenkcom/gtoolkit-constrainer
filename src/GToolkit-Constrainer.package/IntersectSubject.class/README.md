@@ -1,0 +1,1 @@
+Represents the intersection of two subjects

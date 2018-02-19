@@ -1,0 +1,1 @@
+Represents the merging of two subject collections: either by intersecton or union

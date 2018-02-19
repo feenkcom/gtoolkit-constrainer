@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "GeorgeGanea 2/18/2018 21:30",
+	"super" : "MergedSubject",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UnionSubject",
+	"type" : "normal"
+}
