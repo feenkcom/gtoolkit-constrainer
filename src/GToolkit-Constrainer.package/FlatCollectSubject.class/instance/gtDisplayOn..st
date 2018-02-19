@@ -7,5 +7,6 @@ gtDisplayOn: stream
 	stream nextPutAll:block gtDisplayString.
 	stream nextPutAll:' '.
 	stream nextPutAll:elements size gtDisplayString.
-	stream nextPutAll:' '.
-	stream nextPutAll: ((elements asArray) detect: [ :el | el isNotNil ]) className.
+	elements size > 0 ifTrue: [ 
+		stream nextPutAll:' '.
+		stream nextPutAll: ((elements asArray) detect: [ :el | el isNotNil ]) className]

@@ -1,7 +1,11 @@
 transformation
 tUnion: aCollection
-	|unionSubject |
+	|unionSubject otherSubject |
 	unionSubject := UnionSubject new.
+	otherSubject := ConstraintSubject new the: aCollection.
 	unionSubject addChild: self.
-	unionSubject the: elements unionWith: aCollection.
+	unionSubject merge: self with: otherSubject.
+	self addParent: unionSubject.
+	otherSubject addParent: unionSubject.
 	^ unionSubject.
+	

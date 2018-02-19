@@ -1,7 +1,10 @@
 transformation
 tIntersect: aCollection
-	|intersectSubject |
+	|intersectSubject otherSubject |
 	intersectSubject := IntersectSubject new.
+	otherSubject := ConstraintSubject new the: aCollection.
 	intersectSubject addChild: self.
-	intersectSubject the: elements intersectedWith: aCollection.
+	intersectSubject merge: self with: otherSubject.
+	self addParent: intersectSubject.
+	otherSubject addParent: intersectSubject.
 	^ intersectSubject.
