@@ -1,4 +1,0 @@
-debug
-gtDisplayString
-	^ conditionBlock gtDisplayString
-

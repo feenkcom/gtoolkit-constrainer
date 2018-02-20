@@ -1,1 +1,0 @@
-Represents the result of a Constraint application on a subject

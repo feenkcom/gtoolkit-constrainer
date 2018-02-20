@@ -1,4 +1,0 @@
-accessing
-gtDisplayString
-	^ predicate gtDisplayString
-

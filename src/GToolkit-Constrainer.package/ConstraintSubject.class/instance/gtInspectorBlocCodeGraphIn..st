@@ -6,18 +6,19 @@ gtInspectorBlocCodeGraphIn: composite
 		painting: [ :view :x :presentation |
 			view nodes 
 				shape: [ :each | 
-					| text editor editorElement |
+					| text textElement |
 					text := BrRopedText string: each gtDisplayString.
-					editor := BrTextEditor new.
-					editor text: text.
-					editorElement := BrEditorElement new.
-					editorElement constraintsDo: [ :c |
-					    c horizontal matchParent.
+"					text attributes: { 
+    					BrFontSizeAttribute size: 30
+					}."
+					textElement := BlTextElement new.
+                textElement text: text.
+					textElement constraintsDo: [ :c |
+						 c horizontal matchParent.
 					    c vertical matchParent ].
-					editorElement editor: editor.
-					editorElement
+					textElement
 						addEventHandlerOn: BlClickEvent do: [ :anEvent | presentation selection: each ].
-					editorElement ];
+					textElement ];
 				with: (self withDeepCollect: #parents) asSet.
 			view edges 
 				fromCenterBottom; toCenterTop;

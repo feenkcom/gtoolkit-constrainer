@@ -1,3 +1,0 @@
-accessors
-children
-	^ children

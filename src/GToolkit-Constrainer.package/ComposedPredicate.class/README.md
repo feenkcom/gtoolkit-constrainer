@@ -1,1 +1,0 @@
-An ComposedConstraint contains multiple constraints. Subclasses should implement how they combine the results.

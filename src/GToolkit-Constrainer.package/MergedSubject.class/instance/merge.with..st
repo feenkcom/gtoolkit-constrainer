@@ -1,3 +1,7 @@
 private
 merge: aSubject with: anotherSubject
-	^ self subclassResponsibility
+	self addChild: aSubject.
+	self addChild: anotherSubject.
+	aSubject addParent: self.
+	anotherSubject addParent: self.
+	^ self

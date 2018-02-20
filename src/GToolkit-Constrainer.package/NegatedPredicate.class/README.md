@@ -1,1 +1,0 @@
-Does the same thing as a ConstraintPredicate except breakers are matchers and vice-versa
