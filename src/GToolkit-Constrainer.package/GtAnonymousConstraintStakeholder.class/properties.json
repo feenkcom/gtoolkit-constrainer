@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GtConstraintStakeholder",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"UniqueInstance"
+	],
+	"instvars" : [ ],
+	"name" : "GtAnonymousConstraintStakeholder",
+	"type" : "normal"
+}
