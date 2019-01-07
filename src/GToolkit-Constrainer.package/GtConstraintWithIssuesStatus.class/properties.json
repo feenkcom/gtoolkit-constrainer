@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "TudorGirba 1/6/2019 22:03",
-	"super" : "Object",
+	"commentStamp" : "",
+	"super" : "GtConcreteConstraintStatus",
 	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"status"
+		"issues"
 	],
-	"name" : "GtConstraint",
+	"name" : "GtConstraintWithIssuesStatus",
 	"type" : "normal"
 }

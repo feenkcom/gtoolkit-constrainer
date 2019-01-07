@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GtConstraintStatus",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GtComputableConstraintStatus",
+	"type" : "normal"
+}
