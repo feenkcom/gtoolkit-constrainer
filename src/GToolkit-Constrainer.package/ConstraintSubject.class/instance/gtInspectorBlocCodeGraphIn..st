@@ -7,7 +7,7 @@ gtInspectorBlocCodeGraphIn: composite
 			view nodes 
 				shape: [ :each | 
 					| text textElement |
-					text := BrRopedText string: each gtDisplayString.
+					text := each gtDisplayString asRopedText.
 "					text attributes: { 
     					BrFontSizeAttribute size: 30
 					}."
