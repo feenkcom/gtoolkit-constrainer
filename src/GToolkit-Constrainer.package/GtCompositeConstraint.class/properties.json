@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "GtConstraint",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"constraints"
+	],
+	"name" : "GtCompositeConstraint",
+	"type" : "normal"
+}
