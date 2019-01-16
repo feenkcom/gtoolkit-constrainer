@@ -1,3 +1,0 @@
-private
-mergeName
-	^ self subclassResponsibility
