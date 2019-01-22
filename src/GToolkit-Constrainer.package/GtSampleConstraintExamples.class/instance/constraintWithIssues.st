@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 constraintWithIssues
 	<gtExample>
 	| constraint |

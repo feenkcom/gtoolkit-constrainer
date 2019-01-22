@@ -1,1 +1,0 @@
-Subject that computes  its elements via flatCollect

@@ -1,1 +1,0 @@
-Represents the union of two subjects

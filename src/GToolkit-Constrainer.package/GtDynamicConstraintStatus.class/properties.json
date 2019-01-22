@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "GtLeafConstraint",
+	"super" : "GtConstraintStatus",
 	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "GtSampleConstraintWithError",
+	"name" : "GtDynamicConstraintStatus",
 	"type" : "normal"
 }

@@ -1,1 +1,0 @@
-sBase class for the subject of a rule

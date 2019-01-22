@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "GtConstraint",
+	"super" : "GtLeafConstraint",
 	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
