@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GtLeafConstraint",
-	"category" : "GToolkit-Constrainer",
+	"category" : "GToolkit-Constrainer-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

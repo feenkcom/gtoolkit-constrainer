@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "GToolkit-Constrainer-Examples",
+	"super" : "GtCompositeConstraint",
+	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "GtSampleConstraintExamples",
+	"name" : "GtConstrainerReport",
 	"type" : "normal"
 }
