@@ -1,8 +1,8 @@
 private
 ensureProgressFile
 	| aFile |
-	aFile := File named: 'progress-constraints.xml'.
+	aFile := File named: 'progress-constraints.log'.
 	aFile delete.
-	resultsStream := ZnCharacterWriteStream
+	progressStream := ZnCharacterWriteStream
 		on: (aFile writeStream setToEnd; yourself)
 		encoding: 'utf8'.
