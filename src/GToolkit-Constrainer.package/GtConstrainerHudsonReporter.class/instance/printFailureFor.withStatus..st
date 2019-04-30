@@ -2,7 +2,7 @@ private
 printFailureFor: aConcern withStatus: aConcernStatus
 	resultsStream 
 		tab; tab;
-		nextPutAll: '<error type="TestFailure" message="';
+		nextPutAll: '<failure type="ConstraintFailure" message="';
 				nextPutAll: (self encode: aConcern description);
 				nextPutAll: (self encode: ' (');
 				nextPutAll: (self encode: aConcern stakeholder);
@@ -10,5 +10,5 @@ printFailureFor: aConcern withStatus: aConcernStatus
 			nextPutAll: '">';
 			lf;
 			nextPutAll: (self encode: ((String with: Character cr) join: (aConcernStatus issues collect: #gtDisplayString)));
-		nextPutAll: '</error>';
+		nextPutAll: '</failure>';
 		lf
