@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "GToolkit-Constrainer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"report",
+		"progressStream",
+		"resultsStream",
+		"resultSummaryPosition",
+		"failureCount",
+		"errorCount"
+	],
+	"name" : "GtConstrainerHudsonReporter",
+	"type" : "normal"
+}

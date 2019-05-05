@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "GToolkit-Constrainer-Examples",
+	"super" : "CommandLineHandler",
+	"category" : "GToolkit-Constrainer",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "GtSampleConstraintExamples",
+	"name" : "GtConstrainerCommandLineHandler",
 	"type" : "normal"
 }
