@@ -8,11 +8,18 @@ gtItemsFor: aView
 			do: [ :column | 
 			column
 				item: [ :each | 
-					BlElement new 
+					BlElement new
 						geometry: BlCircle new;
-						size: 16@16; 
+						size: 12 @ 12;
 						background: each status color ];
-				rowStencil: [ :eachIcon | eachIcon asElement margin: (BlInsets left: 5 right: 5) ];
+				rowStencil: [ :eachIcon | 
+					eachIcon asElement
+						margin:
+							(BlInsets
+								top: 2
+								left: 5
+								bottom: 2
+								right: 5) ];
 				noResize ];
-		column: 'Constraint' translated do: [ :column | 
-			column item: [ :each | each gtDisplayString ] ]
+		column: 'Constraint' translated
+			do: [ :column | column item: [ :each | each gtDisplayString ] ]
