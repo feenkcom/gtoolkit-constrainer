@@ -1,3 +1,3 @@
 accessing
 color
-	^ Color gray
+	^ Color veryLightGray
