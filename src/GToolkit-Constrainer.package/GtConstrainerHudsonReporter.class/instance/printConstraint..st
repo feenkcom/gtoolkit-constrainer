@@ -14,7 +14,7 @@ printConstraint: aConstraint
 		resultsStream
 			tab; tab;
 			nextPutAll: '<system-out>';
-				nextPutAll: (self encode: aConstraint name);
+			nextPutAll: (self encode: ((String with: Character cr) join: (aConstraint issues collect: #gtDisplayString)));
 			nextPutAll: '</system-out>';
 			lf ].
 	self printConstraintEnd: aConstraint.
