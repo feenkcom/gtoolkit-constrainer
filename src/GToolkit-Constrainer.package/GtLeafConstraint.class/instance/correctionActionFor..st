@@ -1,3 +1,3 @@
-accessing
+corrections
 correctionActionFor: anItem
 	^ nil
