@@ -23,5 +23,5 @@ gtItemsFor: aView
 								geometry: (BlRectangle cornerRadius: 10);
 								layout: BlLinearLayout horizontal alignCenter;
 								label: 'Fix' translated;
-								action: [ :button | button phlow spawnObject: (action value: each) ] ] ] ].
+								action: [ :button | button phlow spawnObject: (action cull: each cull: nil) ] ] ] ].
 	^ list
