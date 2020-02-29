@@ -2,6 +2,7 @@ accessing
 gtItemsFor: aView
 	<gtView>
 	^ aView columnedList
+		priority: 1;
 		title: 'Constraints';
 		items: [ self constraints ];
 		column: 'Status' translated

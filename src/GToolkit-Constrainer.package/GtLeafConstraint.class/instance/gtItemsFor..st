@@ -3,7 +3,9 @@ gtItemsFor: aView
 	<gtView>
 	| list column |
 	list := self issues gtItemsFor: aView.
-	list title: 'Issues'.
+	list 
+		title: 'Issues';	
+		priority: 1.
 	self hasCorrections
 		ifTrue: [ column := list column.
 			column width: 60.
