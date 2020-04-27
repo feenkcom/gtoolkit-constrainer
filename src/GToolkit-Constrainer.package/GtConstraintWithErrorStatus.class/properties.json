@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GtConcreteConstraintStatus",
-	"category" : "GToolkit-Constrainer",
+	"category" : "GToolkit-Constrainer-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
