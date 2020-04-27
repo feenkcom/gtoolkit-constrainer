@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "CommandLineHandler",
-	"category" : "GToolkit-Constrainer",
+	"category" : "GToolkit-Constrainer-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

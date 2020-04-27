@@ -1,0 +1,3 @@
+accessing
+ignoredMethodA
+	<gtIgnoreConstraint: #GtSampleConstraintWithIgnoredMethods>
