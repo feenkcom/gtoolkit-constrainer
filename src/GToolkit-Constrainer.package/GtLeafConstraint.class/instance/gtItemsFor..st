@@ -11,7 +11,7 @@ gtItemsFor: aView
 			column width: 60.
 			column title: 'Correction' translated.
 			column
-				itemStencil: [ :each | 
+				stencil: [ :each | 
 					(self correctionActionFor: each)
 						ifNil: [ BlElement new size: 0 @ 0 ]
 						ifNotNil: [ :action | 
