@@ -22,7 +22,7 @@ gtItemsFor: aView
 									c horizontal fitContent.
 									c vertical fitContent.
 									c padding: (BlInsets all: 5) ];
-								geometry: (BlRectangle cornerRadius: 10);
+								geometry: (BlRoundedRectangleGeometry cornerRadius: 10);
 								layout: BlLinearLayout horizontal alignCenter;
 								label: 'Fix' translated;
 								action: [ :button | button phlow spawnObject: (action cull: each cull: nil) ] ] ] ].
