@@ -8,7 +8,7 @@ gtApplyAllCorrectionsButton: anAction
 				look: BrGlamorousButtonLabelLook;
 				background: Color white;
 				layout: BlLinearLayout horizontal alignCenter;
-				geometry: (BlRectangle cornerRadius: 3);
+				geometry: (BlRoundedRectangleGeometry cornerRadius: 3);
 				margin: (BlInsets top: 3);
 				constraintsDo: [ :c | 
 					c horizontal fitContent.
