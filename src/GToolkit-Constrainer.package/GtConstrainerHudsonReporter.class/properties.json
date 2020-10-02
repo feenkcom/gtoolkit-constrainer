@@ -11,7 +11,8 @@
 		"resultsStream",
 		"resultSummaryPosition",
 		"failureCount",
-		"errorCount"
+		"errorCount",
+		"executionTime"
 	],
 	"name" : "GtConstrainerHudsonReporter",
 	"type" : "normal"

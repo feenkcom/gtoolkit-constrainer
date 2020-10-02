@@ -8,7 +8,10 @@ end
 	resultsStream 
 		nextPutAll: ' failures="'; print: self failureCount; 
 		nextPutAll: '" errors="'; print: self errorCount; 
-		nextPutAll: '" time="'; print: 0; 
+		nextPutAll: '" time="'; print: executionTime asMilliSeconds / 1000.0; 
 		nextPutAll: '">'.
 	
-	progressStream nextPutAll: 'finished running constraints '.
+	progressStream 
+		nextPutAll: ('Finished running {1}: ' format: {self class name});
+		nextPutAll: self reportName;
+		close
