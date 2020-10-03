@@ -3,7 +3,7 @@ startFor: leaftConstraints
 	resultsStream nextPutAll: '<?xml version="1.0" encoding="UTF-8"?>'; lf.
 	resultsStream 
 		nextPutAll: '<testsuite '; 
-			nextPutAll: 'name="';    nextPutAll: (self encode: self reportName); 
+			nextPutAll: 'name="'; nextPutAll: (self encode: self reportName); 
 			nextPutAll: '" tests="'; print: leaftConstraints size;
 		nextPutAll: '">'.
 		
