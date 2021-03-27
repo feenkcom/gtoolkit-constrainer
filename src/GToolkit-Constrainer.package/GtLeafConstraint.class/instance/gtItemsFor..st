@@ -17,7 +17,7 @@ gtItemsFor: aView
 						ifNotNil: [ :action | 
 							BrButton new
 								background: Color white;
-								look: BrTextLabelLook + BrShadowLook new;
+								aptitude: BrTextLabelAptitude + BrShadowAptitude new;
 								constraintsDo: [ :c | 
 									c horizontal fitContent.
 									c vertical fitContent.
