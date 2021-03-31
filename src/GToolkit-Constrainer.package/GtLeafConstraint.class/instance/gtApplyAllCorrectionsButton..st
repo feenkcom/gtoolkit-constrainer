@@ -5,7 +5,7 @@ gtApplyAllCorrectionsButton: anAction
 		ifFalse: [ ^ anAction noAction ].
 	^ anAction explicit
 		stencil: [ BrButton new
-				look: BrGlamorousButtonLabelLook;
+				aptitude: BrGlamorousButtonLabelAptitude;
 				background: Color white;
 				layout: BlLinearLayout horizontal alignCenter;
 				geometry: (BlRoundedRectangleGeometry cornerRadius: 3);
