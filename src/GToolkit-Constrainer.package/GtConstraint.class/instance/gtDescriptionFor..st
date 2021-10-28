@@ -4,4 +4,4 @@ gtDescriptionFor: aView
 	^ aView explicit 
 		title: 'Description';
 		priority: 10;
-		stencil: [ GtDocumenter forText: self description ]
+		stencil: [ LeCoderTextElement coderElementFor: self description ]
