@@ -7,7 +7,7 @@ gtItemsFor: aView
 		items: [ self constraints ];
 		column: 'Status' translated icon: [ :each | 
 			BlElement new
-				geometry: BlCircle new;
+				geometry: BlCircleGeometry new;
 				size: 12 @ 12;
 				background: each status color;
 				margin: (BlInsets top: 2 left: 5 bottom: 2 right: 5) ]
