@@ -2,10 +2,17 @@ ui
 gtItemsFor: aView
 	<gtView>
 	| list column |
-	list := self issues gtItemsFor: aView.
-	list 
-		title: 'Issues';	
-		priority: 1.
+	list := aView columnedList.
+	list
+		title: 'Issues';
+		priority: 1;
+		items: [ self issues ];
+		column: 'Index'
+			text: [ :eachItem :eachIndex | eachIndex asRopedText foreground: Color gray ]
+			width: 45;
+		column: 'Item' text: [ :eachItem | eachItem gtDisplayText ];
+		actionUpdateButton.
+
 	self hasCorrections
 		ifTrue: [ column := list column.
 			column width: 60.
