@@ -22,7 +22,7 @@ gtItemsFor: aView
 					(self correctionActionFor: each)
 						ifNil: [ BlElement new size: 0 @ 0 ]
 						ifNotNil: [ :action | 
-							BrButton new
+							BrButton new beSmallSize
 								aptitude: BrGlamorousButtonWithLabelAptitude;
 								label: 'Fix' translated;
 								action: [ :button | button phlow spawnObject: (action cull: each cull: nil) ] ] ] ].
