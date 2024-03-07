@@ -5,12 +5,7 @@ gtItemsFor: aView
 		priority: 1;
 		title: 'Constraints';
 		items: [ self constraints ];
-		column: 'Status' translated icon: [ :each | 
-			BlElement new
-				geometry: BlCircleGeometry new;
-				size: 12 @ 12;
-				background: each status color;
-				margin: (BlInsets top: 2 left: 5 bottom: 2 right: 5) ]
+		column: 'Status' translated
+			icon: [ :each | each statusElement ]
 			width: 50;
-		column: 'Constraint' translated
-			text: [ :each | each gtDisplayString ]
+		column: 'Constraint' translated text: [ :each | each gtDisplayString ]
