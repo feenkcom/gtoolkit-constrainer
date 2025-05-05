@@ -1,6 +1,7 @@
 examples
 compositeConstraintWithoutIssues
 	<gtExample>
+	<return: #GtCompositeConstraint>
 	| composite constraint |
 	composite := GtCompositeConstraint new.
 	constraint := GtSampleConstraintWithoutIssues new.
