@@ -1,3 +1,1 @@
-SystemOrganization addCategory: #'GToolkit-Constrainer'!
-SystemOrganization addCategory: #'GToolkit-Constrainer-Core'!
-SystemOrganization addCategory: #'GToolkit-Constrainer-Examples'!
+self packageOrganizer ensurePackage: #'GToolkit-Constrainer' withTags: #(#Core #Examples)!
